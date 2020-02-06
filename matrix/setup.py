@@ -14,8 +14,9 @@ setup(
     packages=["matrix", "matrix.client"],
     scripts=["bin/matrix", "bin/bluepill"],
 
-    use_scm_version=True,
-    setup_requires=['setuptools_scm'],
+    #use_scm_version=True,
+    #setup_requires=['setuptools_scm'],
+    version="1.1.0-sim2apl",
 
     install_requires=[
         "click",

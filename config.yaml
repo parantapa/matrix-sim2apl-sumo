@@ -1,0 +1,17 @@
+rabbitmq_host: localhost
+rabbitmq_port: 5672
+rabbitmq_password: user
+rabbitmq_username: user
+event_exchange: events
+
+sim_nodes:
+    - node0
+controller_port:
+    node0: 16001
+num_agentprocs:
+    node0: 1
+num_storeprocs:
+    node0: 1
+
+num_rounds: 10
+root_seed: 42
