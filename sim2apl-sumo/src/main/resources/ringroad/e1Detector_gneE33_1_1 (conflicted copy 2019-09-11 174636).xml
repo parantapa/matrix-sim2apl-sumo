@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11-9-2019 17:45:56 by SUMO gui Version 0.31.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="simulation/ringroad/ringroad.net.xml"/>
+        <additional-files value="simulation/ringroad/vehicles.xml,simulation/ringroad/routes.xml,simulation/ringroad/rerouters.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="0.01"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="63377"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="0"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="simulation/ringroad/settings.xml"/>
+        <start value="true"/>
+        <tracker-interval value="0.01"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="263.89" id="e0_1" nVehContrib="226" flow="3083.10" occupancy="9.98" speed="38.83" length="4.50" nVehEntered="226"/>
+</detector>

@@ -1,0 +1,7 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+  <vType id="car" minGap="0.5" maxSpeed="15" guiShape="passenger" vClass="passenger"/>
+  <vType id="car2" minGap="2" maxSpeed="8" guiShape="passenger" vClass="passenger"/>
+  <vType id="car3" accel="0.1" decel="0.1" sigma="0.0" length="2" minGap="1.0" maxSpeed="0.000001" guiShape="passenger" vClass="passenger"/>
+
+</additional>

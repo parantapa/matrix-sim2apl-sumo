@@ -1,0 +1,6 @@
+pylint
+ipython
+pytest
+pytest-cov
+pytest-profiling
+snakeviz

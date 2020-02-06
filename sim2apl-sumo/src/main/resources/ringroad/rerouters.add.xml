@@ -1,0 +1,18 @@
+<additionals>
+    <e1Detector id="e0_0" lane="gneE33_0" pos="21.89" freq="900.00" file="e1Detector_gneE33_0_0.xml" friendlyPos="0"/>
+    <e1Detector id="e0_1" lane="gneE33_1" pos="21.71" freq="900.00" file="e1Detector_gneE33_1_1.xml" friendlyPos="0"/>
+    <e1Detector id="e1_0" lane="gneE22_0" pos="8.68" freq="900.00" file="e1Detector_gneE22_0_6.xml" friendlyPos="0"/>
+    <e1Detector id="e1_1" lane="gneE22_1" pos="8.38" freq="900.00" file="e1Detector_gneE22_1_7.xml" friendlyPos="0"/>
+    <e1Detector id="e2_0" lane="gneE28_0" pos="8.79" freq="900.00" file="e1Detector_gneE28_0_5.xml" friendlyPos="0"/>
+    <e1Detector id="e2_1" lane="gneE28_1" pos="8.58" freq="900.00" file="e1Detector_gneE28_1_4.xml" friendlyPos="0"/>
+    <rerouter id="rerouter_0" edges="gneE32">
+		<interval end="1e9">
+		   <destProbReroute id="gneE25"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_1" edges="gneE25">
+		<interval end="1e9">
+		   <destProbReroute id="gneE32"/>
+		</interval>
+	</rerouter>
+</additionals>

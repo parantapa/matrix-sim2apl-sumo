@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11-9-2019 16:07:52 by SUMO gui Version 0.31.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="simulation/manual/network.net.xml"/>
+        <route-files value="simulation/manual/routes.xml"/>
+        <additional-files value="simulation/manual/vehicles.xml,simulation/manual/poi.xml,simulation/manual/loops.xml,simulation/manual/tls.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="0.01"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="60908"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="0"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="simulation/manual/settings.xml"/>
+        <start value="true"/>
+        <tracker-interval value="0.01"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="36.76" id="loop0" nVehContrib="6" flow="587.60" occupancy="5.29" speed="13.89" length="4.50" nVehEntered="6"/>
+    <interval begin="0.00" end="36.76" id="loop1" nVehContrib="5" flow="489.66" occupancy="4.41" speed="13.89" length="4.50" nVehEntered="5"/>
+</detector>
