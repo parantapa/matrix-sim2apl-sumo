@@ -24,7 +24,7 @@ Clone the simulation package repository.
 .. code:: bash
 
     $ cd $HOME
-    $ git clone matrix-sim2apl-sumo
+    $ git clone https://github.com/parantapa/matrix-sim2apl-sumo.git
 
 Create a conda environment for Matrix,
 and install Matrix inside it.
@@ -96,3 +96,19 @@ agents:
 
     $ cd ~/matrix-sim2apl-sumo
     $ ./run-sim2apl-sumo.sh
+
+Note that loading the Utrecht map and routes can take a while.
+Consequently the simulation might take some time before it makes progress on the
+first iteration.
+
+Running the simulation on multiple nodes
+----------------------------------------
+
+To run the simulation using multiple compute nodes,
+``Matrix`` needs to be setup on all the compute nodes.
+The RabbitMQ server can run on one node,
+while the Matrix controller and sim2apl agents
+need to be started on every compute node.
+Please refer to the documentation of the Matrix at
+``https://github.com/nssac/socioneticus-matrix``
+for details on setting up Matrix on multiple compute nodes.
